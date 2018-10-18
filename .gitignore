@@ -1,0 +1,16 @@
+*.user
+*.pem
+*.crt
+*.key
+*.suo
+*.sdf
+*.opensdf
+*.db
+*.db-shm
+*.db-wal
+*.orig
+*.swp
+ipch/
+*.a
+.vs/
+

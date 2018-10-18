@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CommandPattern">
+      <UniqueIdentifier>{18085c36-26b9-4f4c-afea-9a74b0e4e0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Obejcts">
+      <UniqueIdentifier>{17f6031e-4196-4b48-891d-ff548607b124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Handlers">
+      <UniqueIdentifier>{f4def825-1046-4541-865f-3e4a4caf9bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HandlersAndConstantsDefines">
+      <UniqueIdentifier>{c8f4e214-cce3-4461-91ed-6095d9c67134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{d9804472-8178-4a04-b88c-8e793c7807e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Handlers">
+      <UniqueIdentifier>{404a6ef1-f095-445c-9625-35c414af06ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommandPattern">
+      <UniqueIdentifier>{2875ce79-f463-41a3-9eed-9a67eaaa53de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\main">
+      <UniqueIdentifier>{c5c136c2-f474-43d5-89bd-c792ddc79164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI">
+      <UniqueIdentifier>{1638ff2d-0e9e-4c33-b556-e3eff4fe8bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EnemyFactory">
+      <UniqueIdentifier>{61fbaf66-27d4-4108-a3a1-3cb8d20535a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{cae47912-37f0-4277-91d9-ff7b334163c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EnemyFactory">
+      <UniqueIdentifier>{ea60ca98-a00e-4d47-ab0a-5d09e18ad140}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ActiveObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftMouseCommand.cpp">
+      <Filter>Source Files\CommandPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveLeftCommand.cpp">
+      <Filter>Source Files\CommandPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveRightCommand.cpp">
+      <Filter>Source Files\CommandPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleAI.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedAirplane.cpp">
+      <Filter>Source Files\EnemyFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedFactory.cpp">
+      <Filter>Source Files\EnemyFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="StandartAirplane.cpp">
+      <Filter>Source Files\EnemyFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="StandartFactory.cpp">
+      <Filter>Source Files\EnemyFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files\CommandPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftMouseCommand.h">
+      <Filter>Header Files\CommandPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveLeftCommand.h">
+      <Filter>Header Files\CommandPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveRightCommand.h">
+      <Filter>Header Files\CommandPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveObject.h">
+      <Filter>Header Files\Obejcts</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Obejcts</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Obejcts</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Obejcts</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files\HandlersAndConstantsDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="HandlersDefines.h">
+      <Filter>Header Files\HandlersAndConstantsDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturesDefines.h">
+      <Filter>Header Files\HandlersAndConstantsDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundDefines.h">
+      <Filter>Header Files\HandlersAndConstantsDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Obejcts</Filter>
+    </ClInclude>
+    <ClInclude Include="AIComponent.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAI.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFactory.h">
+      <Filter>Header Files\EnemyFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="StandartFactory.h">
+      <Filter>Header Files\EnemyFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedFactory.h">
+      <Filter>Header Files\EnemyFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="StandartAirplane.h">
+      <Filter>Header Files\EnemyFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedAirplane.h">
+      <Filter>Header Files\EnemyFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyProduct.h">
+      <Filter>Header Files\EnemyFactory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
